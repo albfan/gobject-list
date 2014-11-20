@@ -28,6 +28,7 @@ The following environment variables may be set to affect the output printed by g
 	 - `create`: Print information about newly created objects as they’re created.
 	 - `refs`: Print information about every reference increment and decrement on objects.
 	 - `backtrace`: Include backtraces with every printed message.
+	 - `tracerefs`: At exit, for each object still alive, print a call tree.
 	 - `all`: All of the above.
 
 - `GOBJECT_LIST_FILTER`:
